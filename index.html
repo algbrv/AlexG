@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Алексей Губарев - Системный консультант</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #222; /* Темный фон */
+            color: #eee; /* Светлый шрифт */
+        }
+
+        .card {
+            background-color: #333;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            width: 90%;
+            max-width: 600px;
+            margin: 20px 0;
+        }
+
+        .contact-icons {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap; /* Добавлено для адаптивности */
+            margin-bottom: 20px;
+        }
+
+        .contact-icons a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #eee;
+            margin: 10px; /* Добавлено для адаптивности */
+        }
+
+        .contact-icons img {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 5px;
+            filter: invert(1); /* Инверсия цвета иконок для темного фона */
+        }
+
+        .profile-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 20px auto;
+        }
+
+        .section {
+            margin-top: 20px;
+        }
+
+        .section h2 {
+            border-bottom: 1px solid #555;
+            padding-bottom: 10px;
+        }
+
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .section li {
+            margin-bottom: 5px;
+        }
+
+        .save-contact-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        @media (max-width: 480px) {
+            .contact-icons img {
+                width: 30px;
+                height: 30px;
+            }
+
+            .profile-photo {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <h1>Алексей Губарев</h1>
+        <p>Системный консультант</p>
+
+        <div class="contact-icons">
+            <a href="tel:053-488-2335">
+                <img src="tel-icon.png" alt="Телефон">
+                Телефон
+            </a>
+            <a href="https://wa.me/+972534882335">
+                <img src="whatsapp-icon.png" alt="WhatsApp">
+                WhatsApp
+            </a>
+            <a href="https://t.me/algbrv">
+                <img src="telegram-icon.png" alt="Telegram">
+                Telegram
+            </a>
+            <a href="https://www.facebook.com/alxgbrv/">
+                <img src="facebook-icon.png" alt="Facebook">
+                Facebook
+            </a>
+            <a href="mailto:gubarev.job@gmail.com">
+                <img src="email-icon.png" alt="Email">
+                Email
+            </a>
+            <a href="https://gubarev.com">
+                <img src="website-icon.png" alt="Website">
+                Website
+            </a>
+            <a href="LINK.com/2222">
+                <img src="linkedin-icon.png" alt="LinkedIn">
+                LinkedIn
+            </a>
+        </div>
+
+        <a href="AlexeyGubarev.vcf" download="AlexeyGubarev.vcf" class="save-contact-button">Сохранить контакт</a>
+
+        <img src="AlexeyGubarev.jpg" alt="Фото Алексея Губарева" class="profile-photo">
+
+        <div class="section">
+            <h2>Услуги</h2>
+            <ul>
+                <li>Трансформационные игры</li>
+                <li>Бизнес-консультирование</li>
+                <li>Системные расстановки для бизнеса</li>
+                <li>Коучинг владельцев бизнеса и руководителей</li>
+                <li>Командный коучинг</li>
+                <li>Деловые игры</li>
+                <li>Проектное сопровождение</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Обо мне</h2>
+            <ul>
+                <li>Образование: Кандидат политических наук</li>
+                <li>Опыт работы в бизнесе</li>
+                <li>Опыт консультирования</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

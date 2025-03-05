@@ -1,0 +1,39 @@
+/* Стили для маленьких экранов (смартфоны) */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+  .contact-icons img {
+    width: 30px;
+    height: 30px;
+  }
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* Стили для средних экранов (планшеты) */
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 15px;
+  }
+  .contact-icons img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+/* Стили для больших экранов (ноутбуки и настольные компьютеры) */
+@media (min-width: 769px) {
+  body {
+    font-size: 18px;
+    padding: 20px;
+  }
+  .contact-icons img {
+    width: 40px;
+    height: 40px;
+  }
+}
